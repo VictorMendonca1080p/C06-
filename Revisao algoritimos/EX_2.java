@@ -5,10 +5,12 @@ public class EX_2 {
         Scanner KbordValue = new Scanner(System.in);
 
         //lendo
-        System.out.println("nota NPA = ");
-        int NPA = KbordValue.nextInt();
+        System.out.println("nota NP1 = ");
+        int NP1 = KbordValue.nextInt();
+        System.out.println("nota NP2 = ");
+        int NP2 = KbordValue.nextInt();
         
-        
+        int NPA = (NP1 + NP2)/2;
 
         if(NPA >= 60)
         {
