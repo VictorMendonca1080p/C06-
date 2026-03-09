@@ -11,16 +11,16 @@ public class Kart {
 
     public void Pular()
     {
-        System.out.println("Kart pula");
+        System.out.println(nome + " pula");
     }
 
     public void SoltarTurbo()
     {
-        System.out.println("Kart solta turbo");
+        System.out.println(nome + " solta turbo");
     }
 
     public void FazerDrift()
     {
-        System.out.println("Kart faz drift");
+        System.out.println(nome + " faz drift");
     }
 }
