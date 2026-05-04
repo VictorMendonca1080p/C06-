@@ -7,6 +7,7 @@ public class Kart {
     public Kart(String nomeC)
     {
         this.nome = nomeC;
+        MotorKart = new Motor(50, 50);
     }
 
     public void Pular()
